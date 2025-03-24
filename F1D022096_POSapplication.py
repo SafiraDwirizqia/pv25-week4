@@ -13,7 +13,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(750, 700)
+        MainWindow.setFixedSize(750, 700)
         self.pos_app = QtWidgets.QWidget(MainWindow)
         self.pos_app.setObjectName("pos_app")
 
